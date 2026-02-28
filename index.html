@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test MMM-FranceTravailReminder</title>
+    <link rel="stylesheet" href="MMM-FranceTravailReminder.css">
+    <style>
+        body { background-color: #000; color: white; font-family: sans-serif; }
+    </style>
+</head>
+<body>
+    <div id="magicmirror"></div>
+
+    <script src="MMM-FranceTravailReminder.js"></script>
+    <script>
+        const module = new MMMFranceTravailReminder();
+        document.getElementById('magicmirror').appendChild(module.getDom());
+    </script>
+</body>
+</html>
