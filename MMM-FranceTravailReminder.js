@@ -10,7 +10,7 @@ class MMMFranceTravailReminder {
         if (this.showReminder) {
             wrapper.className = "fade-in";
             wrapper.innerHTML = `
-                <div style="text-align:center;">
+                <div style="text-align: Bottom center;">
                     <img src="public/logo.png"
                          style="width:120px; margin-bottom:10px;">
                     <div style="font-size:28px; font-weight:bold; color:red;">
